@@ -1,0 +1,50 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.pbxproj
+!project.yml
+DerivedData/
+build/
+Build/
+
+# XcodeGen
+*.xcodeproj/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IPA
+*.ipa
+Payload/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# CocoaPods
+Pods/
+*.podspec.lock
+
+# Keys & Secrets
+*.pem
+*.p12
+*.mobileprovision
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
